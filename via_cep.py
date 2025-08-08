@@ -33,7 +33,7 @@ if str(response.status_code).startswith('2'):
       siafi = dados.get('siafi', '')
         
       print(
-          f"Cep: {cep.replace('.', '').replace('-', '').replace(' ', '')}" "\n"
+          f"Cep: {cep_tratado}" "\n"
           f"Logradouro: {logradouro}" "\n"
           f"Complemento: {complemento}" "\n"
           f"Unidade: {unidade}" "\n"
